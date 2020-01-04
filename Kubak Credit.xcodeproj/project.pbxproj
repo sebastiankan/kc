@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7551AFBC2323648200EC765E /* UIColorEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFBB2323648200EC765E /* UIColorEX.swift */; };
+		7551AFC12323679F00EC765E /* IRANYekanMobile-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7551AFBE2323679F00EC765E /* IRANYekanMobile-Bold.ttf */; };
+		7551AFC22323679F00EC765E /* IRANYekanMobile-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7551AFBF2323679F00EC765E /* IRANYekanMobile-Light.ttf */; };
+		7551AFC32323679F00EC765E /* IRANYekanMobile-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7551AFC02323679F00EC765E /* IRANYekanMobile-Regular.ttf */; };
+		7551AFC52323697900EC765E /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFC42323697900EC765E /* VisualEffectView.swift */; };
+		7551AFC7232369B400EC765E /* ViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFC6232369B400EC765E /* ViewControllerInterface.swift */; };
+		7551AFC923236A4200EC765E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFC823236A4200EC765E /* ActivityIndicatorView.swift */; };
+		7551AFCB232371F800EC765E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFCA232371F800EC765E /* WebViewController.swift */; };
+		7551AFCF232375DE00EC765E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFCE232375DE00EC765E /* Reachability.swift */; };
+		7551AFD12323763B00EC765E /* UIApplicationEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFD02323763B00EC765E /* UIApplicationEX.swift */; };
+		7551AFD3232379EC00EC765E /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFD2232379EC00EC765E /* LinearProgressBar.swift */; };
+		7551AFD523237A0500EC765E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551AFD423237A0500EC765E /* ProgressBar.swift */; };
+		757403F92320E49100345117 /* client.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 757403F82320E49100345117 /* client.ovpn */; };
+		75BAE81C2324B7B200BF2620 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BAE81B2324B7B200BF2620 /* LoadingViewController.swift */; };
+		BD3E542120C67DD600F3C399 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E541F20C67DD600F3C399 /* Then.swift */; };
+		BD61416A20C67BB400005AA6 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416920C67BB400005AA6 /* NetworkExtension.framework */; };
+		BD61416C20C67BBD00005AA6 /* OpenVPNAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */; };
+		BD61416D20C67BCA00005AA6 /* OpenVPNAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */; };
+		BD61416E20C67BCA00005AA6 /* OpenVPNAdapter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD61417720C67C6D00005AA6 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61417620C67C6D00005AA6 /* PacketTunnelProvider.swift */; };
+		BD61417C20C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD61417420C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD61418120C67C9D00005AA6 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416920C67BB400005AA6 /* NetworkExtension.framework */; };
+		BD61418220C67CB300005AA6 /* OpenVPNAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */; };
+		BD9167BD20C677E200F3AFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9167BC20C677E200F3AFED /* AppDelegate.swift */; };
+		BD9167BF20C677E200F3AFED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9167BE20C677E200F3AFED /* ViewController.swift */; };
+		BD9167C220C677E200F3AFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9167C020C677E200F3AFED /* Main.storyboard */; };
+		BD9167C420C677E400F3AFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9167C320C677E400F3AFED /* Assets.xcassets */; };
+		BD9167C720C677E400F3AFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9167C520C677E400F3AFED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD61417A20C67C6D00005AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9167B120C677E200F3AFED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD61417320C67C6D00005AA6;
+			remoteInfo = OpenVPNTunnelProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD3E543420C689A400F3C399 /* Copy dSYM */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy dSYM";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61416F20C67BCB00005AA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD61416E20C67BCA00005AA6 /* OpenVPNAdapter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61418020C67C6D00005AA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD61417C20C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7551AFBB2323648200EC765E /* UIColorEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEX.swift; sourceTree = "<group>"; };
+		7551AFBE2323679F00EC765E /* IRANYekanMobile-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANYekanMobile-Bold.ttf"; sourceTree = "<group>"; };
+		7551AFBF2323679F00EC765E /* IRANYekanMobile-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANYekanMobile-Light.ttf"; sourceTree = "<group>"; };
+		7551AFC02323679F00EC765E /* IRANYekanMobile-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANYekanMobile-Regular.ttf"; sourceTree = "<group>"; };
+		7551AFC42323697900EC765E /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		7551AFC6232369B400EC765E /* ViewControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInterface.swift; sourceTree = "<group>"; };
+		7551AFC823236A4200EC765E /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		7551AFCA232371F800EC765E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7551AFCE232375DE00EC765E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7551AFD02323763B00EC765E /* UIApplicationEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationEX.swift; sourceTree = "<group>"; };
+		7551AFD2232379EC00EC765E /* LinearProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		7551AFD423237A0500EC765E /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		757403F82320E49100345117 /* client.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client.ovpn; sourceTree = "<group>"; };
+		75BAE81B2324B7B200BF2620 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		BD3E541F20C67DD600F3C399 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		BD3E542220C67E1400F3C399 /* OpenVPNAdapter+Hidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenVPNAdapter+Hidden.h"; sourceTree = "<group>"; };
+		BD3E542320C67E2500F3C399 /* Provider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Provider-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD61416920C67BB400005AA6 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenVPNAdapter.framework; path = Carthage/Build/iOS/OpenVPNAdapter.framework; sourceTree = "<group>"; };
+		BD61417420C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kubak CreditTunnelProvider.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61417620C67C6D00005AA6 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		BD61417820C67C6D00005AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61417920C67C6D00005AA6 /* OpenVPNTunnelProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenVPNTunnelProvider.entitlements; sourceTree = "<group>"; };
+		BD61418320C67D2700005AA6 /* OpenVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenVPN.entitlements; sourceTree = "<group>"; };
+		BD9167B920C677E200F3AFED /* Kubak Credit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kubak Credit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9167BC20C677E200F3AFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD9167BE20C677E200F3AFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD9167C120C677E200F3AFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD9167C320C677E400F3AFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD9167C620C677E400F3AFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD9167C820C677E400F3AFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD61417120C67C6D00005AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61418120C67C9D00005AA6 /* NetworkExtension.framework in Frameworks */,
+				BD61418220C67CB300005AA6 /* OpenVPNAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9167B620C677E200F3AFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61416D20C67BCA00005AA6 /* OpenVPNAdapter.framework in Frameworks */,
+				BD61416A20C67BB400005AA6 /* NetworkExtension.framework in Frameworks */,
+				BD61416C20C67BBD00005AA6 /* OpenVPNAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7551AFBD2323679600EC765E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7551AFBE2323679F00EC765E /* IRANYekanMobile-Bold.ttf */,
+				7551AFBF2323679F00EC765E /* IRANYekanMobile-Light.ttf */,
+				7551AFC02323679F00EC765E /* IRANYekanMobile-Regular.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		BD3E542420C67E3200F3C399 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E542320C67E2500F3C399 /* Provider-Bridging-Header.h */,
+				BD3E542220C67E1400F3C399 /* OpenVPNAdapter+Hidden.h */,
+				BD3E541F20C67DD600F3C399 /* Then.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD3E542520C6813000F3C399 /* OVPN Files */ = {
+			isa = PBXGroup;
+			children = (
+				757403F82320E49100345117 /* client.ovpn */,
+			);
+			name = "OVPN Files";
+			sourceTree = "<group>";
+		};
+		BD61416820C67BB400005AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD61416B20C67BBD00005AA6 /* OpenVPNAdapter.framework */,
+				BD61416920C67BB400005AA6 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD61417520C67C6D00005AA6 /* OpenVPNTunnelProvider */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E542420C67E3200F3C399 /* Helpers */,
+				BD61417620C67C6D00005AA6 /* PacketTunnelProvider.swift */,
+				BD61417820C67C6D00005AA6 /* Info.plist */,
+				BD61417920C67C6D00005AA6 /* OpenVPNTunnelProvider.entitlements */,
+			);
+			path = OpenVPNTunnelProvider;
+			sourceTree = "<group>";
+		};
+		BD9167B020C677E200F3AFED = {
+			isa = PBXGroup;
+			children = (
+				BD9167BB20C677E200F3AFED /* OpenVPN */,
+				BD61417520C67C6D00005AA6 /* OpenVPNTunnelProvider */,
+				BD9167BA20C677E200F3AFED /* Products */,
+				BD61416820C67BB400005AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9167BA20C677E200F3AFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9167B920C677E200F3AFED /* Kubak Credit.app */,
+				BD61417420C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9167BB20C677E200F3AFED /* OpenVPN */ = {
+			isa = PBXGroup;
+			children = (
+				BD61418320C67D2700005AA6 /* OpenVPN.entitlements */,
+				BD9167D120C6782C00F3AFED /* SupportingFiles */,
+				BD9167CF20C6780C00F3AFED /* Controller */,
+				BD9167CE20C6780500F3AFED /* AppDelegate */,
+			);
+			path = OpenVPN;
+			sourceTree = "<group>";
+		};
+		BD9167CE20C6780500F3AFED /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD9167BC20C677E200F3AFED /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BD9167CF20C6780C00F3AFED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD9167BE20C677E200F3AFED /* ViewController.swift */,
+				7551AFC6232369B400EC765E /* ViewControllerInterface.swift */,
+				7551AFCA232371F800EC765E /* WebViewController.swift */,
+				75BAE81B2324B7B200BF2620 /* LoadingViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD9167D020C6781300F3AFED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7551AFBD2323679600EC765E /* fonts */,
+				BD9167C020C677E200F3AFED /* Main.storyboard */,
+				BD9167C320C677E400F3AFED /* Assets.xcassets */,
+				BD9167C520C677E400F3AFED /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD9167D120C6782C00F3AFED /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E542520C6813000F3C399 /* OVPN Files */,
+				BD9167D020C6781300F3AFED /* Resources */,
+				BD9167C820C677E400F3AFED /* Info.plist */,
+				7551AFBB2323648200EC765E /* UIColorEX.swift */,
+				7551AFC42323697900EC765E /* VisualEffectView.swift */,
+				7551AFC823236A4200EC765E /* ActivityIndicatorView.swift */,
+				7551AFCE232375DE00EC765E /* Reachability.swift */,
+				7551AFD02323763B00EC765E /* UIApplicationEX.swift */,
+				7551AFD2232379EC00EC765E /* LinearProgressBar.swift */,
+				7551AFD423237A0500EC765E /* ProgressBar.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD61417320C67C6D00005AA6 /* Kubak CreditTunnelProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61417D20C67C6D00005AA6 /* Build configuration list for PBXNativeTarget "Kubak CreditTunnelProvider" */;
+			buildPhases = (
+				BD61417020C67C6D00005AA6 /* Sources */,
+				BD61417120C67C6D00005AA6 /* Frameworks */,
+				BD61417220C67C6D00005AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kubak CreditTunnelProvider";
+			productName = OpenVPNTunnelProvider;
+			productReference = BD61417420C67C6D00005AA6 /* Kubak CreditTunnelProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BD9167B820C677E200F3AFED /* Kubak Credit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9167CB20C677E400F3AFED /* Build configuration list for PBXNativeTarget "Kubak Credit" */;
+			buildPhases = (
+				BD9167B520C677E200F3AFED /* Sources */,
+				BD9167B620C677E200F3AFED /* Frameworks */,
+				BD9167B720C677E200F3AFED /* Resources */,
+				BD61416F20C67BCB00005AA6 /* Embed Frameworks */,
+				BD61418020C67C6D00005AA6 /* Embed App Extensions */,
+				BD3E543420C689A400F3C399 /* Copy dSYM */,
+				75680BAF2320E62700F713D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD61417B20C67C6D00005AA6 /* PBXTargetDependency */,
+			);
+			name = "Kubak Credit";
+			productName = OpenVPN;
+			productReference = BD9167B920C677E200F3AFED /* Kubak Credit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9167B120C677E200F3AFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Kubak;
+				TargetAttributes = {
+					BD61417320C67C6D00005AA6 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BD9167B820C677E200F3AFED = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BD9167B420C677E200F3AFED /* Build configuration list for PBXProject "Kubak Credit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9167B020C677E200F3AFED;
+			productRefGroup = BD9167BA20C677E200F3AFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD9167B820C677E200F3AFED /* Kubak Credit */,
+				BD61417320C67C6D00005AA6 /* Kubak CreditTunnelProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD61417220C67C6D00005AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9167B720C677E200F3AFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7551AFC32323679F00EC765E /* IRANYekanMobile-Regular.ttf in Resources */,
+				7551AFC22323679F00EC765E /* IRANYekanMobile-Light.ttf in Resources */,
+				7551AFC12323679F00EC765E /* IRANYekanMobile-Bold.ttf in Resources */,
+				BD9167C720C677E400F3AFED /* LaunchScreen.storyboard in Resources */,
+				BD9167C420C677E400F3AFED /* Assets.xcassets in Resources */,
+				BD9167C220C677E200F3AFED /* Main.storyboard in Resources */,
+				757403F92320E49100345117 /* client.ovpn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75680BAF2320E62700F713D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OpenVPNAdapter.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD61417020C67C6D00005AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3E542120C67DD600F3C399 /* Then.swift in Sources */,
+				BD61417720C67C6D00005AA6 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9167B520C677E200F3AFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9167BF20C677E200F3AFED /* ViewController.swift in Sources */,
+				7551AFD523237A0500EC765E /* ProgressBar.swift in Sources */,
+				7551AFD3232379EC00EC765E /* LinearProgressBar.swift in Sources */,
+				7551AFC52323697900EC765E /* VisualEffectView.swift in Sources */,
+				7551AFBC2323648200EC765E /* UIColorEX.swift in Sources */,
+				7551AFC923236A4200EC765E /* ActivityIndicatorView.swift in Sources */,
+				7551AFCB232371F800EC765E /* WebViewController.swift in Sources */,
+				7551AFD12323763B00EC765E /* UIApplicationEX.swift in Sources */,
+				7551AFC7232369B400EC765E /* ViewControllerInterface.swift in Sources */,
+				7551AFCF232375DE00EC765E /* Reachability.swift in Sources */,
+				BD9167BD20C677E200F3AFED /* AppDelegate.swift in Sources */,
+				75BAE81C2324B7B200BF2620 /* LoadingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD61417B20C67C6D00005AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD61417320C67C6D00005AA6 /* Kubak CreditTunnelProvider */;
+			targetProxy = BD61417A20C67C6D00005AA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD9167C020C677E200F3AFED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9167C120C677E200F3AFED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD9167C520C677E400F3AFED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9167C620C677E400F3AFED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD61417E20C67C6D00005AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenVPNTunnelProvider/OpenVPNTunnelProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F8NHQK4T9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenVPNTunnelProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.kubak.credit.OpenVPNTunnelProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD61417F20C67C6D00005AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenVPNTunnelProvider/OpenVPNTunnelProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F8NHQK4T9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenVPNTunnelProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.kubak.credit.OpenVPNTunnelProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD9167C920C677E400F3AFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD9167CA20C677E400F3AFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9167CC20C677E400F3AFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenVPN/OpenVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F8NHQK4T9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.kubak.credit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD9167CD20C677E400F3AFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenVPN/OpenVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F8NHQK4T9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.kubak.credit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD61417D20C67C6D00005AA6 /* Build configuration list for PBXNativeTarget "Kubak CreditTunnelProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61417E20C67C6D00005AA6 /* Debug */,
+				BD61417F20C67C6D00005AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9167B420C677E200F3AFED /* Build configuration list for PBXProject "Kubak Credit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9167C920C677E400F3AFED /* Debug */,
+				BD9167CA20C677E400F3AFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9167CB20C677E400F3AFED /* Build configuration list for PBXNativeTarget "Kubak Credit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9167CC20C677E400F3AFED /* Debug */,
+				BD9167CD20C677E400F3AFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9167B120C677E200F3AFED /* Project object */;
+}

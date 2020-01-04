@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "OpenVPNAdapter",
+      "hash" : "18633d84463390f923938d042e46f86c63eb420ba7851fbd473079ced7737977"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "5d119fd7f6d9408105437877351fd3ccf3567d3a",
+  "iOS" : [
+    {
+      "name" : "OpenVPNAdapter",
+      "hash" : "ee0916d994d8497bb6f3ebd016a0eed213e4ae1c8162a8c9263731deae1f84f0"
+    }
+  ]
+}
